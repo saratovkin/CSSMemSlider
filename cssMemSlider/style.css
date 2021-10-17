@@ -20,6 +20,10 @@ body {
   background-color: var(--win95blue);
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -75,10 +79,11 @@ a {
 
 /* MAIN */
 
-main {
+.main .container {
+  background-image: url(assets/img/background.jpg);
   height: 80vh;
+  background-size: cover;
 }
-
 
 /* FOOTER */
 .container.footer {
