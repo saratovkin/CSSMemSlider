@@ -18,6 +18,7 @@ body {
   padding: 0;
   font-family: 'W95FA';
   background-color: var(--win95blue);
+  cursor: url("assets/cursors/arrow.cur"), auto;
 }
 
 ::-webkit-scrollbar {
@@ -82,7 +83,8 @@ a {
 
 .slider-wrapper {
   width: calc(100vw - 100px);
-  min-height: 1000px;
+  height: calc(100vh - 150px);
+  min-height: 850px;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -92,7 +94,9 @@ a {
   max-height: 900px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 150px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -156,7 +160,7 @@ input {
 }
 
 label {
-  cursor: pointer;
+  cursor: url("assets/cursors/pointer.cur"), auto;
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -260,6 +264,9 @@ label:hover .custom-radio {
   }
   .lang {
     height: 30px;
+  }
+  .slider-wrapper {
+    min-height: 500px;
   }
   .text-slider,
   .text {
