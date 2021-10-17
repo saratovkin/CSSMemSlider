@@ -113,7 +113,6 @@ a {
   max-width: 1260px;
 }
 
-
 .slide img {
   background: #fff;
   width: 100%;
@@ -162,6 +161,7 @@ label {
   height: 20px;
   padding: 10px;
 }
+
 .slider-pagination {
   display: flex;
 }
@@ -249,4 +249,32 @@ label:hover .custom-radio {
 
 .footer-inner a:hover {
   background-color: #b4b4b4;
+}
+
+@media (max-width:1000px) {
+  .header-inner {
+    font-size: 30px;
+  }
+  .header-inner p {
+    margin-top: 6px;
+  }
+  .lang {
+    height: 30px;
+  }
+  .text-slider,
+  .text {
+    width: calc(100vw - 100px);
+    padding-left: 0;
+    margin-right: 0;
+    max-width: 980px;
+    overflow-wrap: anywhere;
+    order: 1;
+  }
+  .text-line {
+    width: calc(400vw - 400px);
+  }
+  .slider-pagination {
+    flex-basis: 100%;
+    justify-content: center;
+  }
 }
