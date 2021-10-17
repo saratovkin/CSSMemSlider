@@ -265,9 +265,6 @@ label:hover .custom-radio {
   .lang {
     height: 30px;
   }
-  .slider-wrapper {
-    min-height: 600px;
-  }
   .text-slider,
   .text {
     width: calc(100vw - 100px);
