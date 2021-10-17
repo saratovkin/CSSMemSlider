@@ -37,7 +37,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 87.5rem;
   margin: 0 auto;
   border: 1px solid #000;
   border-collapse: collapse;
@@ -45,7 +45,7 @@ a {
 
 .header-inner {
   background-color: var(--win95gray);
-  font-size: 40px;
+  font-size: 2.5rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -54,26 +54,26 @@ a {
 .header-misk,
 .header-icon {
   display: flex;
-  height: 40px;
+  height: 2.5rem;
   border: 1px solid var(--win95darkgray);
   box-shadow: inset 1px 1px #fff;
-  padding: 5px;
+  padding: 0.25rem;
   overflow: hidden;
   white-space: nowrap;
 }
 
 .header-icon p {
-  margin-top: 3px;
+  margin-top: 0.19rem;
 }
 
 .lang {
   background-color: var(--win95deepblue);
-  height: 40px;
+  height: 2.5rem;
   color: #fff;
 }
 
 .time {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .main .container {
@@ -82,16 +82,16 @@ a {
 }
 
 .slider-wrapper {
-  width: calc(100vw - 100px);
-  height: calc(100vh - 150px);
-  min-height: 850px;
-  max-width: 1400px;
+  width: calc(100vw - 6.25rem);
+  height: calc(100vh - 9.375rem);
+  min-height: 56.25rem;
+  max-width: 87.5rem;
   margin: 0 auto;
 }
 
 .meme-slider {
-  max-width: 1260px;
-  max-height: 900px;
+  max-width: 78.75rem;
+  max-height: 56.25rem;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -102,7 +102,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   overflow: hidden;
-  row-gap: 30px;
+  row-gap: 1.875rem;
 }
 
 .slides {
@@ -113,8 +113,8 @@ a {
 }
 
 .slide {
-  width: calc(100vw - 100px);
-  max-width: 1260px;
+  width: calc(100vw - 6.25rem);
+  max-width: 78.75rem;
 }
 
 .slide img {
@@ -123,9 +123,7 @@ a {
 }
 
 .text-slider {
-  margin-right: 40%;
-  width: 30vw;
-  max-width: 590px;
+  width: 36.875rem;
   text-align: left;
   order: -1;
   overflow: hidden;
@@ -138,17 +136,17 @@ a {
 
 .text-line {
   display: flex;
-  width: 120vw;
+  width: 147.5rem;
   overflow-x: auto;
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: .5s;
 }
 
 .text {
-  padding-top: 20px;
-  padding-left: 20px;
-  width: 30vw;
-  height: 40px;
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  width: 36.875rem;
+  height: 2.5rem;
   background-color: var(--win95deepblue);
   color: #fff;
   box-shadow: inset 1px 1px #fff;
@@ -161,9 +159,9 @@ input {
 
 label {
   cursor: url("assets/cursors/pointer.cur"), auto;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.625rem;
 }
 
 .slider-pagination {
@@ -171,8 +169,8 @@ label {
 }
 
 .custom-radio {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   background-color: var(--win95gray);
   box-shadow: inset 1px 1px #fff;
   border: 1px solid var(--win95darkgray);
@@ -235,11 +233,11 @@ label:hover .custom-radio {
 
 .container.footer {
   background-color: var(--win95gray);
-  height: 100px;
+  height: 6.25rem;
 }
 
 .footer-inner {
-  padding-top: 40px;
+  padding-top: 2.5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -247,7 +245,7 @@ label:hover .custom-radio {
 .footer-inner a {
   border: 1px solid var(--win95darkgray);
   box-shadow: inset 1px 1px #fff;
-  padding: 5px;
+  padding: 0.3rem;
   transition: .1s;
 }
 
@@ -257,25 +255,25 @@ label:hover .custom-radio {
 
 @media (max-width:1000px) {
   .header-inner {
-    font-size: 30px;
+    font-size: 2rem;
   }
   .header-inner p {
-    margin-top: 6px;
+    margin-top: 0.375rem;
   }
   .lang {
-    height: 30px;
+    height: 2rem;
   }
   .text-slider,
   .text {
-    width: calc(100vw - 100px);
+    width: calc(100vw - 6.25rem);
     padding-left: 0;
     margin-right: 0;
-    max-width: 980px;
+    max-width: 61.25rem;
     overflow-wrap: anywhere;
     order: 1;
   }
   .text-line {
-    width: calc(400vw - 400px);
+    width: calc(400vw - 25rem);
   }
   .slider-pagination {
     flex-basis: 100%;
