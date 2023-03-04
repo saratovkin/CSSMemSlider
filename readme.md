@@ -1,5 +1,7 @@
 # CSS Slider
 
+Deploy: https://saratovkin.github.io/cssMemSlider/cssMemSlider/index.html
+
 This application was also created as a task from Rolling Scopes School.
 
 Main idea of this task was to create a slider without JS and libraries (CSS only).
